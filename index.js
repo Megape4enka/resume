@@ -24,6 +24,7 @@ function toggleMenu() {
     let main = document.querySelector('.main')
     navigation.classList.remove('active')
     main.classList.remove('active')
+    toggle.classList.remove('active')
 }
 
 function scrollToTop() {
