@@ -24,6 +24,10 @@ ul {
     list-style: none;
 }
 
+p {
+    text-align: justify;
+}
+
 .mainWebsite {
     margin: 20px 0;
     color: #111111;

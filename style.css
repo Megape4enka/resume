@@ -234,6 +234,7 @@ h3 {
 
 p {
     color: #777777;
+    text-align: justify;
 }
 
 .dark p {
@@ -453,6 +454,10 @@ p {
     font-size: 1em;
 }
 
+.project p {
+    text-align: center;
+}
+
 .testimonials .content {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -477,6 +482,10 @@ p {
     width: 80px;
     height: 80px;
     margin-bottom: 10px;
+}
+
+.testimonials .title p {
+    text-align: center;
 }
 
 .testimonials img {
@@ -520,6 +529,11 @@ p {
     align-items: center;
     flex-direction: column;
 }
+
+.contact p {
+    text-align: center;
+}
+
 
 .contactForm {
     position: relative;
@@ -584,6 +598,9 @@ textarea {
     position: relative;
     bottom: 0;
     padding: 10px 40px;
+}
+
+.copyright p {
     text-align: center;
 }
 
