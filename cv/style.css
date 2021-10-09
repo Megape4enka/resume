@@ -239,13 +239,13 @@ p {
     background-color: #03a9f4;
 }
 
-.projects a {
+.projects__list-item a {
     color: #444444;
     font-size: 16px;
     font-weight: 500;
 }
 
-.projects a:hover {
+.projects__list-item a:hover {
     color: #2196f3;
 }
 
