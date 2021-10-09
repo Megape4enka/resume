@@ -239,6 +239,16 @@ p {
     background-color: #03a9f4;
 }
 
+.projects a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.projects a:hover {
+    color: #2196f3;
+}
+
 .interest ul {
     display: grid;
     grid-template-columns: repeat(4,1fr);
