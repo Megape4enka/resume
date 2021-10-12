@@ -235,6 +235,20 @@ p {
     background-color: #03a9f4;
 }
 
+.projects__list li {
+    display: flex;
+    align-items: center;
+}
+
+.projects__list li::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #444444;
+    display: inline-block;
+    margin-right: 7px;
+}
+
 .projects__list-item a {
     color: #444444;
     font-size: 16px;
