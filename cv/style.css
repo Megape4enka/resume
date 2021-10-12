@@ -235,11 +235,6 @@ p {
     background-color: #03a9f4;
 }
 
-.projects__list li {
-    display: flex;
-    align-items: center;
-}
-
 .projects__list li::before {
     content: '▪';
     color: #444444;
