@@ -241,12 +241,9 @@ p {
 }
 
 .projects__list li::before {
-    content: '';
-    width: 5px;
-    height: 5px;
-    background-color: #444444;
-    display: inline-block;
-    margin-right: 7px;
+    content: '▪';
+    color: #444444;
+    padding-right: 10px;
 }
 
 .projects__list-item a {
