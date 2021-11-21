@@ -220,21 +220,6 @@ p {
     font-weight: 500;
 }
 
-.skills .percent {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background-color: #f0f0f0;
-}
-
-.skills .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color: #03a9f4;
-}
-
 .projects__list li::before {
     content: '▪';
     color: #444444;
